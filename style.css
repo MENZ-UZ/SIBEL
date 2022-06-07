@@ -1,0 +1,63 @@
+* {
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+}
+
+nav {
+	position: fixed;
+	top: 0;
+	left: 0;
+	right: 0;
+}
+
+ul {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	width: 1174px;
+	margin: auto;
+	padding: 15px;
+	list-style: none;
+}
+
+li {
+	padding: 15px;	
+}
+
+a {
+	text-decoration: none;
+	color: black;
+	text-transform: uppercase;
+}
+
+.logo a {
+	font-size: 35px;
+	font-weight: 900;
+}
+
+.logo {
+	margin-right: auto;
+	margin-left: auto;
+}
+
+.user a img {
+	width: 25px;
+}
+
+.shop a img {
+	width: 15px;
+}
+
+#hero {
+	background-image: url(bg.jpg);
+	height: 100vh;
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: top;
+}
+
+body {
+	font-family: 'Lato', sans-serif;
+}
+
